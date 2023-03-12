@@ -1,7 +1,7 @@
 import './Left-container.css';
 import Display from './Display/Display.jsx';
 import Numbers from './Numbers/Numbers.jsx';
-import ArithmeticOperations from './Arithmetic-operations/Arithmetic-operations.jsx';
+import ArithmeticOperations from './Operations/Operations.jsx';
 import EqualSign from './Equal-sign/Equal-sign.jsx';
 
 function LeftContainer() {
