@@ -1,0 +1,39 @@
+.right-blocks__canvas {
+  display: flex;
+  flex-direction: column;
+  width: 243px;
+  height: 448px;
+  border: 2px dashed #C4C4C4;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+.right-blocks__canvas-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 183px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right-blocks__canvas-text-up {
+  height: 17px;
+  width: 127px;
+  color:#5D5FEF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.right-blocks__canvas-text-down {
+  height: 30px;
+  width: 100px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 4px;
+}

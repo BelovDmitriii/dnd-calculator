@@ -1,0 +1,10 @@
+.left-container {
+  flex: 1;
+}
+
+.left-blocks {
+  margin-top: 106px;
+  margin-left: 76px;
+  margin-right: 28px;
+  width: 240px;
+}

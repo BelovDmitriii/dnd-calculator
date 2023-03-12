@@ -1,0 +1,28 @@
+.left-blocks__display {
+  width: 240px;
+  height: 60px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.left-blocks__display__input {
+  box-sizing:border-box;
+  background: #F3F4F6;
+  border-radius: 6px;
+  height: 52px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-blocks__display__input__text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  margin: 0;
+  margin-top: 3px;
+  margin-right: 8px;
+}

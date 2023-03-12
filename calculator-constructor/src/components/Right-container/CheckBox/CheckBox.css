@@ -1,0 +1,35 @@
+.right-blocks__checkbox {
+  display: flex;
+  background: #F3F4F6;
+  border-radius: 6px;
+  padding: 1px;
+  justify-content: space-between;
+}
+
+.right-blocks__checkbox__item {
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  color:#4D5562;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.checkbox-active {
+  background: #FFFFFF;
+  border: 1px solid #E2E3E5;
+  border-radius: 5px;
+  width: 136px;
+}
+
+.checkbox-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
