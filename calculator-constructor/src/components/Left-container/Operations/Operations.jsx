@@ -1,21 +1,26 @@
+import Button from '../Button/Button';
 import './Operations.css';
 
 function ArithmeticOperations() {
   return(
-    <div class="left-blocks__arithmetic-operations">
-      <button class="left-blocks__arithmetic-operations__button">
-        /
-      </button>
-      <button class="left-blocks__arithmetic-operations__button">
-        x
-      </button>
-      <button class="left-blocks__arithmetic-operations__button">
-        -
-      </button>
-      <button class="left-blocks__arithmetic-operations__button">
-        +
-      </button>
-    </div>
+    <section class="left-blocks__arithmetic-operations">
+      <Button
+        modifier='arithmetic-operations__button'
+        text='/'
+      />
+      <Button
+        modifier='arithmetic-operations__button'
+        text='X'
+      />
+      <Button
+        modifier='arithmetic-operations__button'
+        text='-'
+      />
+      <Button
+        modifier='arithmetic-operations__button'
+        text='+'
+      />
+    </section>
   );
 }
 

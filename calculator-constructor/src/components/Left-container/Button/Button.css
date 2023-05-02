@@ -1,8 +1,8 @@
 .button {
   display: flex;
   justify-content: center;
-  background-color: lightgrey;
   align-items: center;
+  font-family: 'Roboto';
 }
 
 .left-blocks__numbers__button {
