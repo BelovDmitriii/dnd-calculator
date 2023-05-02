@@ -3,7 +3,7 @@ import './Operations.css';
 
 function ArithmeticOperations() {
   return(
-    <section class="left-blocks__arithmetic-operations">
+    <section className="left-blocks__arithmetic-operations">
       <Button
         modifier='arithmetic-operations__button'
         text='/'

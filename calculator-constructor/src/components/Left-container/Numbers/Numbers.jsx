@@ -2,8 +2,9 @@ import Button from '../Button/Button';
 import './Numbers.css';
 
 function Numbers() {
+
   return(
-    <section class="left-blocks__numbers">
+    <section className="left-blocks__numbers">
       <Button
         modifier="numbers__button"
         text='7'

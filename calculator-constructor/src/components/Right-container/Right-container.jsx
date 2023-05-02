@@ -4,8 +4,8 @@ import Canvas from './Canvas/Canvas.jsx';
 
 function RightContainer() {
   return(
-    <section class="right-container">
-      <div class="right-blocks">
+    <section className="right-container">
+      <div className ="right-blocks">
         <CheckBox />
         <Canvas />
       </div>

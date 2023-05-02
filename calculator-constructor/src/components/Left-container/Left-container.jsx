@@ -6,9 +6,9 @@ import EqualSign from './Equal-sign/Equal-sign.jsx';
 
 function LeftContainer() {
   return(
-    <section class="left-container">
-      <div class="left-blocks">
-        <Display />
+    <section className="left-container">
+      <div className="left-blocks">
+        <Display result='100'/>
         <ArithmeticOperations />
         <Numbers />
         <EqualSign />

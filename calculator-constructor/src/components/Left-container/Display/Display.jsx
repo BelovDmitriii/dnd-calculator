@@ -1,11 +1,11 @@
 import './Display.css';
 
-function Display(){
+function Display(props){
   return(
-    <div class="left-blocks__display">
-      <div class="left-blocks__display__input">
-        <div class="left-blocks__display__input__text">
-          0
+    <div className="left-blocks__display">
+      <div className="left-blocks__display__input">
+        <div className="left-blocks__display__input__text">
+          {props.result}
         </div>
       </div>
     </div>

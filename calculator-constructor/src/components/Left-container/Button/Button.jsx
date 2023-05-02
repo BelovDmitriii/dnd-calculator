@@ -7,7 +7,10 @@ function Button (props) {
 
   return(
     <>
-      <section className={createClass()}>
+      <section
+        onClick={() => {props.onClick(props)}}
+        className={createClass()}
+      >
         {props.text}
       </section>
     </>
