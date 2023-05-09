@@ -3,7 +3,6 @@ import {createContext, useState} from 'react';
 export const NumberContext = createContext();
 
 const NumberProvider = (props) => {
-  const result = '111';
   const [number, setNumber] = useState('');
 
   const getValue = (num) => {
@@ -19,15 +18,17 @@ const NumberProvider = (props) => {
     }                                                    //проверка, что в числе только один знак "."
   };
 
-
-
+  const clearNumbers = () => {
+    setNumber('');
+  };
 
   return(
     <NumberContext.Provider
       value={{
-        result,
+        number,
         handleSetValue,
-        getValue
+        getValue,
+        clearNumbers
       }}>
         {props.children}
       </NumberContext.Provider>
