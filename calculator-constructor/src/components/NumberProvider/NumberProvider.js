@@ -3,11 +3,11 @@ import {createContext} from 'react';
 export const NumberContext = createContext();
 
 const NumberProvider = (props) => {
-  const number = '0';
+  const result = '0';
 
   return(
     <NumberContext.Provider
-      value={{number}}>
+      value={{result}}>
         {props.children}
       </NumberContext.Provider>
   );
