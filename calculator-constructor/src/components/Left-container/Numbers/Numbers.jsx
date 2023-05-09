@@ -49,6 +49,10 @@ function Numbers() {
         modifier="numbers__button"
         text=','
       />
+      <Button
+        modifier="numbers__button"
+        text='С'
+      />
     </section>
   );
 }
