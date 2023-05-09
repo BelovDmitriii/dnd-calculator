@@ -13,7 +13,7 @@ const NumberProvider = (props) => {
   };
 
   const handleSetValue = (num) => {
-    if(!number.includes('.') || num !== '.'){
+    if((!number.includes('.') || num !== '.') && number.length < 9){
       setNumber(`${(number + num).replace(/^0+/, '')}`); // задает значение, выводимое на дисплей
     }                                                    //проверка, что в числе только один знак "."
   };
